@@ -61,10 +61,22 @@ It is designed to demonstrate core concepts of Neural Networks, Computer Vision,
 - Learns to **compress and reconstruct images**
 - Dataset: MNIST (28×28 grayscale digits)
 - Consists of:
-- Encoder → Compresses image into **latent space**
-- Decoder → Reconstructs image from compressed representation
-- Latent Dimension: 64
-- Loss Function: Mean Squared Error (MSE)
+  - Encoder → Compresses image into **latent space**
+  - Decoder → Reconstructs image from compressed representation
+  - Latent Dimension: 64
+  - Loss Function: Mean Squared Error (MSE)
+
+---
+
+### 🔹 7. LSTM - Time Series Forecasting (Milk Production) 📈
+- Built using **TensorFlow / Keras**
+- Predicts **monthly milk production** based on past data
+- Dataset: Monthly Milk Production (Time Series Data)
+- Consists of :
+  - LSTM (Long Short-Term Memory) → captures **long-term dependencies**
+  - Sliding Window Technique → uses past 12 months to predict next value
+  - Time Series Forecasting
+  - Data Normalization using MinMaxScaler
 
 ---
 
