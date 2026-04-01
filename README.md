@@ -56,6 +56,18 @@ It is designed to demonstrate core concepts of Neural Networks, Computer Vision,
 
 ---
 
+### 🔹 6. Autoencoder - MNIST Image Reconstruction 🧠
+- Built using **TensorFlow / Keras**
+- Learns to **compress and reconstruct images**
+- Dataset: MNIST (28×28 grayscale digits)
+- Consists of:
+- Encoder → Compresses image into **latent space**
+- Decoder → Reconstructs image from compressed representation
+- Latent Dimension: 64
+- Loss Function: Mean Squared Error (MSE)
+
+---
+
 ## ⚙️ Installation
 
 ### 1. Clone Repository
